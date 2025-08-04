@@ -1,0 +1,98 @@
+body {
+    background-image: url("../img/imgfundo2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Poppins, 'Inter', sans-serif;
+}
+
+
+.container {
+    text-align: center;
+    justify-content: center;
+}
+
+.container .form {
+    font-family: Poppins, 'Inter', sans-serif;
+    display: left;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 6px;
+    width: 350px;
+    height: 52px;
+    border: white 1px solid;
+}
+
+.email {
+    background-color: transparent;
+    font-family: Poppins, 'Inter', sans-serif;
+
+
+}
+
+.email input {
+    color: white;
+}
+
+.senha {
+
+    background-color: transparent;
+    margin-top: 25px;
+    font-family: Poppins, 'Inter', sans-serif;
+}
+
+.senha input {
+    color: white;
+}
+
+h1 {
+    font-family: Poppins, 'Inter', SemiBold;
+    color: #fff;
+    font-size: 43px;
+    font-family: Poppins, ;
+    margin-bottom: 40px;
+}
+
+button.btn {
+    font-family: Poppins, 'Inter', sans-serif;
+    justify-content: center;
+    width: 350px;
+    height: 52px;
+    border-radius: 6px;
+    background-color: #FF7551;
+    color: #fff;
+    margin-top: 25px;
+}
+
+button.btn:hover {
+    background-color: #fc3a0a;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.redefinir {
+    color: #3C8AF0;
+    background-color: transparent;
+    font-family: Poppins, 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.cadastre {
+    color: #3C8AF0;
+    background-color: transparent;
+    font-family: Poppins, 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+    margin-top: -18px;
+    margin-left: 2px;
+}
+
+.input-svg {
+    position: relative;
+    display: inline-block;
